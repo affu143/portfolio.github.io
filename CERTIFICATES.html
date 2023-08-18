@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Certificates</title>
+    <link rel="icon" href="channels4_profile.jpg">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(45deg,#00bcd4,#ffeb3b);
+        }
+        .container{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 100px 50px;
+            padding: 100px 50px;
+        }
+        .container .card{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 350px;
+            height: 300px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 35px80px rgba(0,0,0,0.15);
+            transition: 0.5s;
+        }
+        .container .card:hover{
+            height: 400px;
+        }
+        .container .card .imgbx{
+            position: absolute;
+            top: 20px;
+            width: 300px;
+            height: 220px;
+            background: #333;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: 0.5s;
+        }
+        .container .card:hover .imgbx{
+            top: -100px;
+            scale: 0.75;
+            box-shadow: 0 15px 45px rgba(0,0,0, 0.2);
+        }
+        .container .card:hover .imgbx img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .container .card .content{
+            position: absolute;
+            top: 250px;
+            width: 100%;
+            padding: 0 30px;
+            height: 30px;
+            overflow: hidden;
+            text-align: center;
+            transition: 0.5s;
+        }
+        .container .card:hover .content{
+            top: 130px;
+            height: 250px;
+        }
+        .container .card .content h2{
+            font-size: 1.5em;
+            font-weight: 700;
+            color: var(--clr);
+        }
+        .container .card .content p{
+            color: #333;
+        }
+        .container .card .content a{
+            position: relative;
+            top: 15px;
+            display: inline-block;
+            padding: 12px 25px;
+            background: var(--clr);
+            color: #fff;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            
+        <div class="card" style="--clr:#96B6C5;">
+            <div class="imgbx">
+                <img src="Power BI Certf.png"height="220px" width="300px">
+            </div>
+            <div class="content">
+                <h2>Power BI Certificate</h2>
+                <p>Power BI Desktop certified Simplilearn.
+                    </p>
+                <a href="Mohammed's Resume (1).pdf" target="_blank">Read more</a>
+            </div>
+        </div>
+        <div class="card" style="--clr:#2D4356;">
+            <div class="imgbx">
+                <img src="MS Azure Certf.png"height="220px" width="300px">
+            </div>
+            <div class="content">
+                <h2>Microsoft Azure Certificate</h2>
+                <p>Azure Fundamenatals certified Microsoft. </p>
+                <a href="Mohammed's Resume (1).pdf" target="_blank">Read more</a>
+            </div>
+        </div>
+        <div class="card" style="--clr:#FD8D14;">
+            <div class="imgbx">
+                <img src="KPMG Certf.png" height="220px" width="300px">
+            </div>
+            <div class="content">
+                <h2>Virtual Internship (KPMG)</h2>
+                <p>Data Analytics Consulting Virtual Internship (KPMG)
+                    certified Forage.
+                    </p>
+                    <a href="Mohammed's Resume (1).pdf" target="_blank">Read more</a>
+            </div>
+        </div>
+        <div class="card" style="--clr:#009688;">
+            <div class="imgbx">
+                <img src="PWC Certf.png"height="220px" width="300px">
+            </div>
+            <div class="content">
+                <h2>Virtual Internship (PWC)</h2>
+                <p>Power BI in Data Analytics Virtual Case Experience
+                    (PWC) certified Forage.</p>
+                <a href="Mohammed's Resume (1).pdf" target="_blank">Read more</a>
+            </div>
+        </div>
+        <div class="card" style="--clr:#7A9D54;">
+            <div class="imgbx">
+                <img src="Accenture Certf.png" height="220px" width="300px">
+            </div>
+            <div class="content">
+                <h2>Virtual Internship (Accenture)</h2>
+                <p>Data Analytics And Visualization Virtual Experience
+                    (Accenture) certified Forage.
+                    </p>
+                    <a href="Mohammed's Resume (1).pdf" target="_blank">Read more</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
